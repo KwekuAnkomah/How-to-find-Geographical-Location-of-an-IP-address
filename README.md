@@ -12,18 +12,3 @@ This project demonstrates how to find the location of an IP address using `curl`
    ```bash
    curl ipinfo.io/"IP_ADDRESS"
 
-🔹 Example Usage
-To look up details for IP 8.8.8.8:
-
-bash
-curl ipinfo.io/8.8.8.8
-Output:
-
-json
-{
-  "ip": "8.8.8.8",
-  "city": "Mountain View",
-  "region": "California",
-  "country": "US",
-  "org": "Google LLC"
-}
